@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #abc6e4;
+}
+
+
+h1 {
+  background-color: #000814;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 900;
+  font-size: 45px;
+}
+
+.form {
+  background-color: #1886ec;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  width:480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.display {
+  list-style-type: none;
+  width: 470px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  display: none;
+}   
+
+.display li:nth-child(even) {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: #001d3d;
+}
+
+.display li:nth-child(odd) {
+  background-color: rgb(235, 235, 57);
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: #000814;
+}
+
+#footerText {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  font-weight: 100;
+}
+
+footer {
+  width: 235px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.footer:hover {
+  background-color: black;
+  color: white;
+}
+
+
+li {
+  cursor: pointer;
+}
+
+#btnTask {
+  background-color: black;
+  color: white;
+  padding: 1px 5px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 6.66%;
+}
+
+#btnTask:hover {
+  background-color: #fff;
+  color: #001d3d;
+}
+
+input[type="text"]::placeholder {
+  font-family: "Roboto", sans-serif;
+}
